@@ -713,10 +713,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
  
 .img-banco a img{
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 .img-banco a:hover img{
   filter: grayscale(0%);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
 
